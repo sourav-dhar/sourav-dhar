@@ -1,39 +1,14 @@
-<a href="https://sourav-dhar.github.io">
-  <img src="./banner.svg" alt="Sourav Dhar, AI Engineer. Foundation models, inference and production agents." width="100%">
-</a>
+<a href="https://sourav-dhar.github.io"><img src="./banner.svg" width="100%" alt="Sourav Dhar, AI Engineer: training, serving and shipping AI. Key contributor to a 120B mixture-of-experts foundation model. Production LLM agents and RAG in regulated fintech. 11 years in data and ML. Open to senior AI engineering roles."></a>
 
-<p>
-  <a href="https://sourav-dhar.github.io"><b>Portfolio</b></a> &nbsp;|&nbsp;
-  <a href="https://www.linkedin.com/in/sourav-dhar-ai-engineer/"><b>LinkedIn</b></a> &nbsp;|&nbsp;
-  <a href="mailto:dharsourav03@gmail.com"><b>dharsourav03@gmail.com</b></a>
+<p align="center">
+  <a href="https://sourav-dhar.github.io"><img src="./btn-portfolio.svg" height="40" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/sourav-dhar-ai-engineer/"><img src="./btn-linkedin.svg" height="40" alt="LinkedIn"></a>
+  <a href="mailto:dharsourav03@gmail.com"><img src="./btn-email.svg" height="40" alt="Email"></a>
+  <a href="https://sourav-dhar.github.io/resume.pdf"><img src="./btn-resume.svg" height="40" alt="Résumé"></a>
 </p>
 
-I train models, serve them, and ship the agents that run on them. I'm a key contributor to a **120B-parameter mixture-of-experts foundation model** being built at The School of AI (ERA V5). Before that I led compliance analytics (AI/ML) at **TerraPay**, a cross-border payments network, and was Lead Data Analyst at **India Post Payments Bank**.
+<a href="https://sourav-dhar.github.io/#models"><img src="./models.svg" width="100%" alt="Model training, inference and serving. Key contributor to a 120B mixture-of-experts foundation model at The School of AI (ERA V5): data pipeline, evaluation, benchmarking, post-training and model serving. Training: pretraining from scratch, fine-tuning open LLMs, attention ablation, distributed training. Serving: vLLM, SGLang, quantization, inference engineering."></a>
 
-### Models: training, inference and serving
+<a href="https://sourav-dhar.github.io/#work"><img src="./agents.svg" width="100%" alt="Agents in production at TerraPay. Knowledge assistant (RAG): 8 departments, 60%+ faster answers. TxQuery AI multi-agent support: 60% of tickets automated, response time from 4 hours to 15 minutes. AML transaction graph on Neo4j: 107M nodes, 199M relationships. AML fraud detection with XGBoost: 35% fewer false positives."></a>
 
-| | |
-|---|---|
-| **120B MoE foundation model** | Pretraining a mixture-of-experts model from scratch with The School of AI's ERA V5 programme. Key contributor across the data pipeline, evaluation and benchmarking, post-training (SFT, RL-based alignment) and model serving. |
-| **Training and fine-tuning** | Transformers trained from scratch; open-weight LLMs fine-tuned for domain tasks; distributed training (5D parallelism). |
-| **Attention ablation** | MHA vs MQA vs GQA vs MLA in small language models, benchmarked on compute and quality on RunPod GPUs. |
-| **Serving** | vLLM and SGLang with continuous batching, PagedAttention, prefix caching and tensor / expert parallelism; AWQ, GPTQ, GGUF and FP8 quantization; speculative decoding and TTFT / throughput tuning. |
-
-### Agents in production
-
-| | |
-|---|---|
-| **Enterprise knowledge assistant** | RAG across onboarding, legal, compliance and sales documents with ACL/JWT pre-filtering, hybrid search and re-ranking. **8 departments**, **60%+ faster** query resolution. |
-| **TxQuery AI** | LangGraph multi-agent customer support, connected to Freshdesk through MCP, streaming over SSE. |
-| **AML transaction graph** | Production Cypher analytics on a Neo4j graph of **107M nodes / 199M relationships**. |
-| **AML fraud detection** | XGBoost model that cut false positives by **35%**. |
-
-The TerraPay work is company code, so it's private. The [portfolio](https://sourav-dhar.github.io) has the write-ups, and I'm happy to walk through any of the architectures.
-
-### Stack
-
-**Training** PyTorch, mixture-of-experts, data pipelines, SFT and RL post-training, evals and benchmarks, distributed training &nbsp;
-**Serving** vLLM, SGLang, PagedAttention, AWQ / GPTQ / GGUF, speculative decoding, FastAPI, Docker &nbsp;
-**Agents** LangGraph, LangChain, MCP, Claude Agent SDK, Google ADK &nbsp;
-**Retrieval** pgvector, hybrid search, re-ranking, Neo4j / GraphRAG &nbsp;
-**Evals and observability** Langfuse, DeepEval, Opik, Guardrails AI
+<a href="https://sourav-dhar.github.io/#stack"><img src="./stack.svg" width="100%" alt="Stack. Training: PyTorch, mixture-of-experts, SFT, RL post-training, evals, distributed training. Serving: vLLM, SGLang, PagedAttention, AWQ, GPTQ, GGUF, FastAPI, Docker. Agents: LangGraph, LangChain, MCP, Deep Agents, Claude Agent SDK, Google ADK. Retrieval: pgvector, hybrid search, re-ranking, Neo4j, GraphRAG. Observability: Langfuse, DeepEval, Opik, Guardrails AI, LangSmith. Classical ML: XGBoost, Optuna, SHAP, Polars, MLflow, DVC. Open to senior AI engineering roles."></a>
